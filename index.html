@@ -1,144 +1,122 @@
 <html lang="en">
 
 <head>
-  <meta name="description" content="Survey Form" />
-  <meta charset="utf-8">
-  <title>Survey Form</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="main.css">
+    <meta name="description" content="Survey Form" />
+    <meta charset="utf-8">
+    <title>PSG Subscription Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 
-  <h1 id="title">Adib Survey Form</h1>
-  <p id="description">Thank you for taking the time to help us improve the platform</p>
-  <div id="background">
-  <form id="survey-form" class="form">
-    <div class="form-group">
-        <label id="name-label" for="name">Name</label>
-        <input
-          type="text"
-          name="name"
-          id="name"
-          class="form-control"
-          placeholder="Enter your name"
-          required
-        />
-      </div>
-      <div class="form-group">
-        <label id="email-label" for="email">Email</label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          class="form-control"
-          placeholder="Enter your Email"
-          required
-        />
-      </div>
-      <div class="form-group">
-        <label id="number-label" for="number"
-          >Age<span class="clue">(optional)</span></label
-        >
-        <input
-          type="number"
-          name="age"
-          id="number"
-          min="10"
-          max="99"
-          class="form-control"
-          placeholder="Age"
-        />
-      </div>
-    <div>
-        <label for="option-select"
-        <p>Which option best describes your current role?</p>
-        <select id="dropdown">
-            <option value="">Select current role</option>
-            <option value="student">Student</option>
-            <option value="full_time_job">Full Time Job</option>
-            <option value="full_time_learner">Full Time Learner</option>
-            <option value="prefer_not_to_say">Prefer Not To Say</option>
-            <option value="other">Other</option>
-        </select>
-    </div>
-    <p>Would you recommend freeCodeCamp to a friend?</p>
-    <div>
-        <input type="radio" id="definitely" name="radio" value="definitely" class="radio">
-        <label for="definitely">Definitely</label>
-    </div>
-    <div>
-        <input type="radio" id="maybe" name="radio" value="maybe" class="radio">
-        <label for="maybe">Maybe</label>
-    </div>
-    <div>
-        <input type="radio" id="not_sure" name="radio" value="not_sure" class="radio">
-        <label for="not_sure">Not sure</label>
-    </div>
-    <div>
-        <label for="option-select_2"
-        <p>Which option best describes your current role?</p>
-        <select id="option-select_2">
-            <option value="">Select an option</option>
-            <option value="student">Challenges</option>
-            <option value="full_time_job">Projects</option>
-            <option value="full_time_learner">Community</option>
-            <option value="prefer_not_to_say">Open Source</option>
-        </select>
-    </div>
-    <p>What would you like to see improved? <p id="little_text">(Check all that apply)</p></option></p>
-    <div>
-        <input type="checkbox" id="front_end_Projects" name="checkbox" value="front_end_Projects" class="checkbox">
-        <label for="front_end_Projects">Front-end Projects</label>
-    </div>
-    <div>
-        <input type="checkbox" id="back_end_Projects" name="checkbox" value="back_end_Projects" class="checkbox">
-        <label for="back_end_Projects">Back-end Projects</label>
-    </div>
-    <div>
-        <input type="checkbox" id="data_visualization" name="checkbox" value="data_visualization" class="checkbox">
-        <label for="data_visualization">Data Visualization</label>
-    </div>
-    <div>
-        <input type="checkbox" id="challenges" name="checkbox" value="challenges" class="checkbox">
-        <label for="challenges">Challenges</label>
-    </div>
-    <div>
-        <input type="checkbox" id="open_source_community" name="checkbox" value="open_source_community" class="checkbox">
-        <label for="open_source_community">Open Source Community</label>
-    </div>
-    <div>
-        <input type="checkbox" id="gitter_help_rooms" name="checkbox" value="gitter_help_rooms" class="checkbox">
-        <label for="gitter_help_rooms">Gitter help rooms</label>
-    </div>
-    <div>
-        <input type="checkbox" id="videos" name="checkbox" value="videos" class="checkbox">
-        <label for="videos">Videos</label>
-    </div>
-    <div>
-        <input type="checkbox" id="city_meetups" name="checkbox" value="city_meetups" class="checkbox">
-        <label for="city_meetups">City Meetups</label>
-    </div>
-    <div>
-        <input type="checkbox" id="wiki" name="checkbox" value="wiki" class="checkbox">
-        <label for="wiki">Wiki</label>
-    </div>
-    <div>
-        <input type="checkbox" id="forum" name="checkbox" value="forum" class="checkbox">
-        <label for="forum">Forum</label>
-    </div>
-    <div>
-        <input type="checkbox" id="additional_courses" name="checkbox" value="additional_courses" class="checkbox">
-        <label for="additional_courses">Additional Courses</label>
-    </div>
-    <div id="textarea">
-        <p>Any comments or suggestions?</p>
-        <textarea class="input-textarea" id="comment" name="comment" rows="4" cols="50" placeholder="Enter your comment here..."></textarea>
-    </div>
-    <button id="submit">Submit</button>
-</form>
+<h1 id="title">PSG Subscription Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<div id="background">
+    <form id="survey-form" class="form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required />
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+            <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" />
+        </div>
+        <div>
+            <label for="option-select" <p>What's your current situation?</p>
+                <select id="dropdown">
+                    <option value="">Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="full_time_job">Full Time Job</option>
+                    <option value="full_time_learner">Full Time Learner</option>
+                    <option value="prefer_not_to_say">Prefer Not To Say</option>
+                    <option value="other">Other</option>
+                </select>
+        </div>
+        <p>Choose the length of the subscription!</p>
+        <div>
+            <input type="radio" id="1_month" name="radio" value="1_month" class="radio">
+            <label for="1_month">A Month</label>
+        </div>
+        <div>
+            <input type="radio" id="6_months" name="radio" value="6_months" class="radio">
+            <label for="6_months">6 months</label>
+        </div>
+        <div>
+            <input type="radio" id="one_year" name="radio" value="one_year" class="radio">
+            <label for="one_year">One Year</label>
+        </div>
+        <div>
+            <label for="option-select_2" <p>Did you ever play football?</p>
+                <select id="option-select_2">
+                    <option value="">Select an option</option>
+                    <option value="kid_player">As a kid</option>
+                    <option value="non_pro_player">As an non-professional</option>
+                    <option value="pro_player">As a professional player</option>
+                </select>
+        </div>
+        <p>Who is your favorite player?
+        <p id="little_text">(Check all that apply)</p>
+        </option>
+        </p>
+        <div>
+            <input type="checkbox" id="neymar" name="checkbox" value="neymar" class="checkbox">
+            <label for="neymar">Neymar Jr.</label>
+        </div>
+        <div>
+            <input type="checkbox" id="mbappe" name="checkbox" value="mbappe" class="checkbox">
+            <label for="mbappe">Mbappé</label>
+        </div>
+        <div>
+            <input type="checkbox" id="icardi" name="checkbox" value="icardi" class="checkbox">
+            <label for="icardi">Icardi </label>
+        </div>
+        <div>
+            <input type="checkbox" id="kean" name="checkbox" value="kean" class="checkbox">
+            <label for="kean">Kean</label>
+        </div>
+        <div>
+            <input type="checkbox" id="verratti" name="checkbox" value="verratti" class="checkbox">
+            <label for="verratti">Verratti</label>
+        </div>
+        <div>
+            <input type="checkbox" id="di_maria" name="checkbox" value="di_maria" class="checkbox">
+            <label for="di_maria">Di Maria</label>
+        </div>
+        <div>
+            <input type="checkbox" id="paredes" name="checkbox" value="paredes" class="checkbox">
+            <label for="paredes">Paredes</label>
+        </div>
+        <div>
+            <input type="checkbox" id="kimpembe" name="checkbox" value="kimpembe" class="checkbox">
+            <label for="kimpembe">Kimpembe</label>
+        </div>
+        <div>
+            <input type="checkbox" id="marquinhos" name="checkbox" value="marquinhos" class="checkbox">
+            <label for="marquinhos">Marquinhos</label>
+        </div>
+        <div>
+            <input type="checkbox" id="bernat" name="checkbox" value="bernat" class="checkbox">
+            <label for="bernat">Bernat</label>
+        </div>
+        <div>
+            <input type="checkbox" id="sarabia" name="checkbox" value="sarabia" class="checkbox">
+            <label for="sarabia">Sarabia</label>
+        </div>
+        <div id="textarea">
+            <p>Any comments or suggestions?</p>
+            <textarea class="input-textarea" id="comment" name="comment" rows="4" cols="50"
+                placeholder="Enter your comment here..."></textarea>
+        </div>
+        <button id="submit">Submit</button>
+    </form>
 </div>
 <script>
 </script>
-
+ 
 </body>
+
 </html>
